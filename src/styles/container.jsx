@@ -1,7 +1,6 @@
 import styled from 'styled-components';
 
 export const Container = styled.div`
-    background-color:#ffff; 
+    background-color:#ffffff; 
     font-family: 'Bellota Text', cursive;
 `
-

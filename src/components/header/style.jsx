@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const LiBox = styled.li`
 list-style-type:none;
-color:black;
+color:white;
 
 cursor:pointer;
 
