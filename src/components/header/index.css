@@ -1,5 +1,7 @@
 .box{
     background: url("../../doc/back.jpg") no-repeat 80%;
 
+    text-align: center;
+
     padding-bottom: 20%;
 }

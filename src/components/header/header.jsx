@@ -22,6 +22,7 @@ const Header = () => (
                 <LiBox>Home</LiBox>
                 <LiBox><A href="#info">Informações</A></LiBox>
                 <LiBox><A href="#Pro">Projetos</A></LiBox>
+                <LiBox><A href="#cont">Contatos</A></LiBox>
             </Box>
         </NAVBOX>
     </div>

@@ -15,4 +15,7 @@ export const NAVBOX = styled.nav`
     height:80%;
 
     display:inline-block;
+
+    position:fixed;
+    left:400px;
 `

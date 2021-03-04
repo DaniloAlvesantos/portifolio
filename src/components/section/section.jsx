@@ -1,5 +1,5 @@
 import React from 'react';
-import styled, { keyframes } from 'styled-components';
+import styled from 'styled-components';
 import LogoPNG from '../../doc/users.png' 
 import './index.css'
 
@@ -23,7 +23,7 @@ const BoxIMG = styled.div`
     transform:scale(0.8);
     transition: all ease 0.3s;
 
-
+    display:inline-block;
 `
 
 const H4 = styled.h4`
@@ -34,11 +34,14 @@ const IMG = styled.img`
     width:300px;
     height:300px;
 
-    margin-top:50px;
-
-    margin-left:75px;
+    margin-top:40px;
+    margin-left:5.5rem;
 
     display:flex;
+`
+
+const btn = styled.a`
+    text-decoration:none;
 `
 
 const SectionBox = () => (
@@ -50,13 +53,30 @@ const SectionBox = () => (
                 <p>Eu fiz curso na Alura,Curso em Vídeo,RocketSeat,workShops online,Udemy,entre outros. </p>
                 <p>Pra você aprender programar,ou que seja outra pofissao, nem sempre precisa ser pago, eu fiz a maioria dos meus cursos foram gratis,e sao muito bom esses cursos.</p>
                 <p>É bom pagar curso? Sim , so que você paga se você tiver certeza que você vai levar isso a fundo, levar isso pra frente.</p>
-                <p>Tem gente q faz so por fazer,temos que ser diferente,temos que fazer por que nos gostamos de fazer isso!</p>
+                <p>Tem gente que faz so por fazer,temos que ser diferente,temos que fazer por que nos gostamos de fazer isso !</p>
             </div>
         <h3>Veja alguns projetos</h3>
-        <BoxIMG id='Pro' className='BoxImg'>
+        <div id='Pro'/>
+        <div>
+        <BoxIMG className='BoxImg'>
             <H4>Esse site, ele usa a API do Github para procurar por usuario</H4>
             <IMG src={LogoPNG} />
         </BoxIMG>
+        <BoxIMG id='Pro' className='BoxImg'>
+            {/* {aqui vai ficar o site de js q muda com a hora} */}
+            <H4>Esse site, ele usa a API do Github para procurar por usuario</H4>
+            <IMG src={LogoPNG} />
+        </BoxIMG>
+        </div>
+        <H4>Mais sobre mim !</H4>
+        <div>
+            <p>
+                Eu começei estudando logica de programação e algoritimos em Portugol,e eu fui direto para o JavaScript,mas eu fui aprendendo HTML e CSS junto com JavaScript,todo esses cursos foram gratuitos!
+            </p>
+            <p>
+                E quando eu terminei esse meu curso de JavaScript eu começei a estudar React.JS,gostei muito de trabalhar com react,e eu começei a pagar o curso da Alura,e eu tive que comprar um notebook para trabalhar,e eu estou muito feliz com os meus resultados,sempre me dedicadicando,e sempre estudando.
+            </p>
+        </div>
     </DivBox>
 );
 

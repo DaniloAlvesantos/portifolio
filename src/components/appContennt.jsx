@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Header from './header/header'
 import SectionBox from './section/section'
 import styled from 'styled-components'
+import Footer from './footer/footer';
 
 const BOX = styled.div`
     height:100%;
@@ -24,6 +25,7 @@ class AppContent extends Component {
                 <Header/>
                 <HRBOX/>
                 <SectionBox/>
+                <Footer/>
             </BOX>
         );
     }
