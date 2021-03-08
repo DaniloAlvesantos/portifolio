@@ -7,7 +7,6 @@ import GmailSVG from '../../doc/gmail.svg'
 
 const UL = styled.ul`
 display:inline-block;
-
 `
 
 const LI = styled.li`
@@ -26,10 +25,12 @@ const IMG = styled.img`
     display:inline-flex;
     height:1.6rem;
     width:2rem;
+    vertical-align:middle;
 `
 
 const FooterBox = styled.footer`
     text-align:center;
+    align-items:center;
 
     padding-top:1rem;
 `
