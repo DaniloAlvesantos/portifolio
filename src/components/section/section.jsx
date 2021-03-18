@@ -19,7 +19,7 @@ const BoxIMG = styled.div`
     border-radius:3px;
     border:1px solid #1b1b1b;
 
-    background:#ffffff;
+    background:#dddddd;
     transform:scale(0.8);
     transition: all ease 0.3s;
 

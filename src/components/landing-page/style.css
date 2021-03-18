@@ -1,0 +1,11 @@
+.LINK {
+    border:solid 1px #000;
+    text-decoration: none;
+    color: #000;
+
+    padding:0.5rem;
+
+    cursor: pointer;
+
+    margin-left: 50rem;
+}
